@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="711dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="159dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/member" />
+
+            <ImageView
+                android:layout_width="107dp"
+                android:layout_height="160dp"
+                android:background="@drawable/members" />
+
+            <TextView
+                android:layout_width="203dp"
+                android:layout_height="171dp"
+                android:background="@color/about"
+                android:gravity="center"
+                android:text="@string/building_a_community_as_a_young_woman_in_a_country_poised_on_a_unique_growth_opportunity_you_have_a_chance_to_make_a_difference_aspire_for_her_will_provide_access_to_a_peer_community_and_information_and_guidance_on_career_choices"
+                android:textColor="@color/tcolor" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="235dp"
+                android:background="@color/about"
+                android:gravity="center"
+                android:text="@string/aspire_for_her_will_partner_with_forward_thinking_organisations_and_institutions_to_create_a_power_packed_eco_system_for_you_offering_world_class_courses_learning_opportunities_workshops_summits_and_conferences_watch_this_space_for_more"
+                android:textColor="@color/tcolor" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/change_makers" />
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edu" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:text="@string/mentors" />
+
+            <ImageView
+                android:layout_width="124dp"
+                android:layout_height="213dp"
+                android:background="@drawable/mentors" />
+
+            <TextView
+                android:layout_width="192dp"
+                android:layout_height="211dp"
+                android:background="@color/about"
+                android:gravity="center"
+                android:text="@string/at_aspire_for_her_a_rich_network_of_women_leaders_and_role_models_will_be_your_guides_as_you_navigate_through_your_career_options_whether_your_area_of_passion_is_technology_or_finance_established_brands_or_hot_start_ups_the_arts_or_social_enterprise_you_will_find_a_mentor_who_has_walked_the_path_and_is_ready_to_guide_you"
+                android:textColor="@color/tcolor"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff" />
+    </LinearLayout>
+</FrameLayout>

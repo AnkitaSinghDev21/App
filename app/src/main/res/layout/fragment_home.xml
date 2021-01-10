@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment"
+    android:background="@color/home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="142dp"
+            android:background="@drawable/unnamed" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="351dp"
+            android:orientation="horizontal"
+            android:background="#ffff">
+
+            <ImageView
+                android:layout_width="192dp"
+                android:layout_height="192dp"
+                android:background="@drawable/first" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:text="@string/aspire_for_her_foundation_is_a_not_for_profit_section_8_company_powered_by_extraordinary_women_leaders_as_mentors_and_role_models_aspire_for_her_foundation_primarily_works_on_a_c2b_college_to_business_model_creating_online_and_offline_programs_for_its_members_18_25_year_old_women_through_partnerships_with_forward_thinking_diversity_focused_organisations_and_professionals" />
+        </LinearLayout>
+</LinearLayout>
+</FrameLayout>
